@@ -1,3 +1,3 @@
 def call(){
-  echo 'hey'
+  echo 'kilo kilo kilo'
 }
