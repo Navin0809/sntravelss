@@ -1,9 +1,13 @@
+@library ('shared_library')  _
 pipeline{
     agent any
      stages{
             stage('echo'){
                 steps{
                 echo 'hey hey hey'
+                script{
+                    hello()
+                }
             }
             }
         }
